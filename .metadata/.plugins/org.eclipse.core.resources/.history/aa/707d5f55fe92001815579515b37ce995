@@ -1,0 +1,42 @@
+package cn.gloryroad;
+
+import static org.junit.Assert.*;
+
+import org.junit.After;
+import org.junit.AfterClass;
+import org.junit.Before;
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+public class CalculatorTest {
+	private static Calculator Calculator = new Calculator();
+
+	@BeforeClass
+	public static void setUpBeforeClass() throws Exception {
+		System.out.println("@BeforeClass");
+	}
+
+	@AfterClass
+	public static void tearDownAfterClass() throws Exception {
+		System.out.println("@AfterClass");
+	}
+
+	@Before
+	public void setUp() throws Exception {
+		System.out.println("≤‚ ‘ø™ º");
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		System.out.println("≤‚ ‘Ω· ¯");
+	}
+
+	@Test
+	public void testAdd() {
+		Calculator.add(2,2);
+		assertEquals(4, Cal.getResult());
+		fail("Not yet implemented");
+		
+	}
+
+}
