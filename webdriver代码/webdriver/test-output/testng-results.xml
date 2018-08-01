@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="15146" started-at="2015-03-23T03:10:58Z" finished-at="2015-03-23T03:11:13Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="15146" started-at="2015-03-23T03:10:58Z" finished-at="2015-03-23T03:11:13Z">
+      <class name="info.cloudits.webdriver.testngday8">
+        <test-method status="PASS" signature="setup()[pri:0, instance:info.cloudits.webdriver.testngday8@1ef7fe8e]" name="setup" is-config="true" duration-ms="12443" started-at="2015-03-23T11:10:58Z" finished-at="2015-03-23T11:11:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="f()[pri:0, instance:info.cloudits.webdriver.testngday8@1ef7fe8e]" name="f" duration-ms="1932" started-at="2015-03-23T11:11:11Z" finished-at="2015-03-23T11:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:info.cloudits.webdriver.testngday8@1ef7fe8e]" name="teardown" is-config="true" duration-ms="742" started-at="2015-03-23T11:11:13Z" finished-at="2015-03-23T11:11:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- info.cloudits.webdriver.testngday8 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
